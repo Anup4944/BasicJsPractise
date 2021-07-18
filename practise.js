@@ -168,3 +168,26 @@ console.log("Welcome to JavaScript practise");
 
 // console.log(replaceFirstDigit('anup12315'))
 
+//EXERCISE 16
+// Given a year, report if it is a leap year
+
+// const isLeapYear = (year) => year % 4 === 0;
+
+// console.log(isLeapYear(2013));
+
+//EXERCISE 17
+// write a js program to compare two objects to determine if the first one contains the same properties as the second one(which may also have additional properties)
+
+// const objA = { a: 1, b: 2, c: 1 };
+// const objB = { a: 1, b: 1, c: 1 };
+// const objC = { a: 1, b: 1, d: 1 };
+// Object.keys will return the keys present in the object
+
+
+// const compareObj = (a, b) => 
+//  Object.keys(a).every(key => b[key])
+
+// console.log(compareObj(objA, objB));
+// console.log(compareObj(objA, objC));
+
+
