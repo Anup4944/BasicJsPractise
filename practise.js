@@ -181,13 +181,43 @@ console.log("Welcome to JavaScript practise");
 // const objA = { a: 1, b: 2, c: 1 };
 // const objB = { a: 1, b: 1, c: 1 };
 // const objC = { a: 1, b: 1, d: 1 };
-// Object.keys will return the keys present in the object
+// // Object.keys will return the keys present in the object
 
-
-// const compareObj = (a, b) => 
+// const compareObj = (a, b) =>
 //  Object.keys(a).every(key => b[key])
 
 // console.log(compareObj(objA, objB));
 // console.log(compareObj(objA, objC));
 
+//EXERCISE 18
+// write a js program to convert a coma-seperated values(CSV) string toa 2D array. A new line indicated a new row in the array
+// example
+// ------
+// abc,def,ghi
+//jkl,mno,pqr
+// stu,vwx,yza
 
+// const parseCSV = (csvString) =>
+// csvString.split('\n').map(row => row.split(','))
+
+// const str = 'abc,def,ghi,jkl,mno,pqr,stu,vwx,yza'
+// console.log(parseCSV(str))
+
+//EXERCISE 19
+
+// wriet a js program to genenrate a random hexadeciaml color code.
+
+// const randomHexa = () => Math.floor(Math.random() * 16).toString(16);
+
+// const getRandomHexColor = ()=>
+// '#' + Array.from({length: 6}).map(randomHexa).join('')
+
+// console.log(getRandomHexColor());
+// console.log(getRandomHexColor());
+// console.log(getRandomHexColor());
+
+//EXERCISE 20
+// write a js function that returns true if the provided function returns true for all elements in a collection, false otherwise
+
+console.log([1,2,3,4,5,6].every(x=> x>0))
+console.log([1,2,3,4,5,6].every(y=> y>5))
