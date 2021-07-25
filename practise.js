@@ -219,5 +219,5 @@ console.log("Welcome to JavaScript practise");
 //EXERCISE 20
 // write a js function that returns true if the provided function returns true for all elements in a collection, false otherwise
 
-console.log([1,2,3,4,5,6].every(x=> x>0))
-console.log([1,2,3,4,5,6].every(y=> y>5))
+// console.log([1,2,3,4,5,6].every(x=> x>0))
+// console.log([1,2,3,4,5,6].every(y=> y>5))
