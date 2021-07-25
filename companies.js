@@ -22,5 +22,27 @@ const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 
 // filter to get age over 25
 
-const newAge = ages.filter((i) => i < 25);
-console.log(newAge);
+// const newAge = ages.filter((i) => i < 25);
+// console.log(newAge);
+//  const retailComp = companies.filter(x => x.category === "Retail")
+
+//  console.log(retailComp)
+
+// const compStarted80s = companies.filter(x => x.start >= 1990)
+// console.log(compStarted80s)
+
+// get companies that lasted 10 years or more
+
+// const lastedTen = companies.filter(company => company.end - company.start >= 10 )
+// console.log(lastedTen)
+
+// create array of comapny names.
+
+// const compNames = companies.map((comapny) => comapny.category);
+// console.log(compNames);
+
+// const sortedComp = companies.sort((a,b) => (a.start > b.start) ? 1 : -1)
+// console.log(sortedComp)
+
+// const sortAges = ages.sort((a,b) => a-b)
+// console.log(sortAges)
