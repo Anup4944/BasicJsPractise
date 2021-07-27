@@ -82,3 +82,46 @@
 //     [1000, 1001, 857, 1],
 //   ])
 // );
+
+// CONFIRM ENDING
+// const confirmEnding = (str, target) => {
+//   return str.endsWith(target);
+// };
+// console.log(confirmEnding("boston", "n"));
+
+// CONFIRM ENDING USING SUBSTRING
+// const confirmEnding = (str, target) => {
+//    console.log(">>>>>>" , str.substr(-target.length))
+//     if(str.substr(-target.length) === target){
+//         console.log(str.substr(-target.length))
+//         return true;
+//     }
+//     return false
+//   };
+//   console.log(confirmEnding("boston", "anup"));
+
+// REPEATING A STRING N TIMES, RETURN EMPTY STRING IF IT IS NOT A POSITIVE NUMBER
+//USING REPEAT METHOD
+// const repeatStr = (str, num) => {
+//   if (num < 0) {
+//     return "";
+//   }
+//   return str.repeat(num);
+// };
+// console.log(repeatStr("abc", 10));
+
+
+// USING LOOP
+// const repeatStr = (str, num) => {
+//     var final = ''
+//     if (num < 0) {
+//       return "";
+//     }
+//     for(var i=0; i<num;i++){
+//         final += str
+//     }
+//     return final
+//   };
+//   console.log(repeatStr("abc", 10));
+
+///TRUNCATE A STRING
